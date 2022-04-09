@@ -1,27 +1,29 @@
 package com.bl.day27.CabInvoiceGenerator;
 
 public class Ride {
-	private double distance;
-	private int time;
-	
-	public Ride(double distance, int time) {
-		this.distance = distance;
-		this.time = time;
-	}
+	 
+		private double distance;
+		private int time;
 
-	public double getDistance() {
-		return distance;
-	}
+		
+		public Ride(double distance, int time) {
+			this.distance = distance;
+			this.time = time;
+		}
 
-	public void setDistance(double distance) {
-		this.distance = distance;
-	}
+		public double getDistance() {
+			return distance;
+		}
 
-	public int getTime() {
-		return time;
-	}
+		public void setDistance(double distance) {
+			this.distance = distance;
+		}
 
-	public void setTime(int time) {
-		this.time = time;
+		public int getTime() {
+			return time;
+		}
+
+		public void setTime(int time) {
+			this.time = time;
+		}
 	}
-}
