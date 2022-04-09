@@ -11,7 +11,6 @@ public class RideRepository {
 	public RideRepository() {
 		userRides = new HashMap<String, ArrayList<Ride>>();
 	}
-
 	public void addRide(String userId, Ride[] ride) {
 		ArrayList<Ride> ridesList = this.userRides.get(userId);
 		if (ridesList == null) {
